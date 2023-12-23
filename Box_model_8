@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 8 Box Model</title>
+    <link rel="shortcut ico" href="Imagem/Tarefa-8.ico.ico" type="image/x-icon">
+    
+    <style>
+        div {
+            height: 400px;
+            width: 400px;
+
+            border-width: 20px;
+            border-style: dotted;
+            border-color: brown;
+            border-radius: 50%;  
+            
+            background-image: url(Imagem/Tarefa\ 8.jpeg);
+            text-align: center;   
+            box-shadow: inset 26px 6px 23px 33px red;   
+            background-size:cover;
+
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+
+            outline-width: 56px;
+            outline-style: double;
+            outline-color: rgb(255, 0, 55);
+        }    
+        
+                
+        </style>
+</head>
+
+
+
+<body>
+    
+    <div>
+        <p>Sou Descodificada</p> 
+    </div>
+      
+    
+</body>
+</html>
